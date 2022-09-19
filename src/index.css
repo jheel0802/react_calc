@@ -8,7 +8,7 @@ body {
   margin: 0;
   height: 100vh;
   display: flex;
-  background-color: #eeeee4;
+  background-color: lightsalmon;
   align-items: center;
   justify-content: center;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -20,16 +20,43 @@ body {
   padding-left: 2rem;
   padding-top: 2rem;
   border-radius: 1rem;
-  background-color: lightblue;
+  background-color: #e0b0ff;
   box-shadow: -24px 18px 8px -3px rgba(47, 106, 196, 0.1);
 }
 
 .screen{
-  background-color: black;
-  color: white;
+  background-color: #00B8B0;
+  color: navy;
   height: 5rem;
   border-radius: 1rem;
   padding: 2rem;
   width: 21rem;
   text-align: right;
+}
+
+.buttonbox{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 1.5rem;
+  background-color: #00B8B0;
+  color: navy;
+  height: 20rem;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  width: 21rem;
+  text-align: right;
+  gap: 1rem;
+}
+
+.button{
+  color: navy;
+  background-color: #e0b0ff;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.button:hover{
+  color: #e0b0ff;
+  background-color: navy;
 }
